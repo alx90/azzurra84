@@ -29,7 +29,7 @@
 
 
 /* 1. IMPORT SECTION */
-	@import url("http://fonts.googleapis.com/css?family=Raleway:200,300,600,700&subset=latin,latin-ext");
+	@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,600,700&subset=latin,latin-ext");
 
 
 /* 2. BASIC STYLES */
@@ -44,13 +44,12 @@
 		font-weight: 200;
 		line-height: 1.7857;
 		letter-spacing: 0.075em;
-		/* color: #000080; */
-		color: #0D6CC8; 
+		color: #0D6CC8;
 		background-color: #fff;
 	}
 
 	a { 
-		/* color: #000; */
+		color: #0D6CC8;
 		-webkit-transition: all 0.2s ease-in-out;
 		-moz-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
@@ -200,7 +199,7 @@
 
 	.st-navbar ul li a{
 		text-transform: uppercase;
-		font-weight: 600;
+		font-weight: 800;
 		padding: 0;
 		margin: 14px;
 	}
@@ -267,7 +266,7 @@
 	.carousel-caption h1 {
 		font-size:46px;
 		margin-bottom:0;
-		padding-left: 12px;
+		line-height:35px;
 		letter-spacing:2px;
 		font-weight:100;
 	}
@@ -276,12 +275,13 @@
 		font-size:81px;
 		font-weight:600;
 		margin-top:0px;
+		/* text-transform:lowercase; */
 		letter-spacing:2px;
-		margin-bottom:0px;
+		margin-bottom:20px;
 	}
 	
 	.carousel-caption p {
-		padding-left: 20px;
+		 font-size:22px;
 	}
 
 	.home-carousel-left, 
