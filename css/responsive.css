@@ -5,6 +5,10 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
+	
+	#logo {
+		width: 270px;
+	}
 
 	#home-carousel  .item {
 		height: 500px;
@@ -39,6 +43,10 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+	
+	#logo {
+		width: 210px;
+	}
 
 	.st-navbar ul li a{
 		margin-left: 13px;
@@ -105,6 +113,10 @@
 /* xs */
 @media (max-width: 767px) {
 
+	#logo {
+		width: 230px;
+	}
+	
 	.logo{
 		margin-left: 15px;
 	}
@@ -194,14 +206,11 @@
 	.st-service {
 		margin-top: 50px;
 	}
-
-
-
 }
 
 /* XS Portrait */
 @media (max-width: 479px) {
-
-
-
+	#logo {
+		width: 190px;
+	}
 }
