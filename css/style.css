@@ -407,6 +407,9 @@
 		background-color: #f5f5f5;
 		padding-top: 130px;
 	}
+	#portfolio-container-row {
+		width: 100%;
+	}
 	#portfolio p {
 	  text-align: center;
 	  margin-bottom: 40px;
