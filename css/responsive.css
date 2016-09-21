@@ -1,8 +1,8 @@
-/* LG */ 
+/* LG [HIGH RESOLUTION PC]*/ 
 @media (min-width: 1200px) {}
 
 
-/* MD */
+/* MD [LOW RESOLUTION PC] */
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	/* LOGO */
@@ -15,20 +15,31 @@
 		height: 500px;
 	}
 
+	.carousel-caption {
+		left: 35px;
+		right: 15px;
+		top: 50%;
+		font-size: 15px;
+		text-align: left;
+		color: #fff;
+		text-shadow: none;
+		margin-top: -95px;	
+	}
+	
 	.carousel-caption h1 {
 		font-size:26px;
-		margin-bottom:0;
-		line-height:27px;
-		letter-spacing:2px;
 		font-weight:100;
+		letter-spacing:2px;
+		line-height:27px;
+		margin-bottom:0;		
 	}
 
 	.carousel-caption h2 {
 		font-size:51px;
 		font-weight:600;
-		margin-top:0px;
 		letter-spacing:2px;
-		margin-bottom:20px;
+		margin-top:0px;		
+		margin-bottom:18px;
 	}
 
 	.carousel-caption p {
@@ -43,7 +54,7 @@
 }
 
 
-/* SM */
+/* SM [TABLETS] */
 @media (min-width: 768px) and (max-width: 991px) {
 
 	/* LOGO */	
@@ -62,21 +73,31 @@
 		height: 500px;
 	}
 
+	.carousel-caption {
+		left: 55px;
+		right: 15px;
+		top: 50%;
+		font-size: 15px;
+		text-align: left;
+		color: #fff;
+		text-shadow: none;
+		margin-top: -100px;	
+	}
+	
 	.carousel-caption h1 {
 		font-size:26px;
-		margin-bottom:0;
-		line-height:27px;
-		letter-spacing:2px;
 		font-weight:100;
+		letter-spacing:2px;
+		line-height:27px;
+		margin-bottom:0;		
 	}
 
 	.carousel-caption h2 {
 		font-size:51px;
 		font-weight:600;
-		margin-top:0px;
-		/* text-transform:lowercase; */
 		letter-spacing:2px;
-		margin-bottom:20px;
+		margin-top:0px;
+		margin-bottom:16px;
 	}
 	
 	.carousel-caption p {
@@ -107,7 +128,7 @@
 }
 
 
-/* XS */
+/* XS [PHONES LANDSCAPE] */
 @media (max-width: 767px) {
 
 	/* LOGO */
@@ -132,25 +153,36 @@
 	#home-carousel  .item {
 		height: 300px;
 	}
+	
+	.carousel-caption {
+		left: 45px;
+		right: 15px;
+		top: 50%;
+		font-size: 15px;
+		text-align: left;
+		color: #fff;
+		text-shadow: none;
+		margin-top: -90px;	
+	}
 
 	.carousel-caption h1 {
 		font-size:16px;
-		margin-bottom:0;
+		font-weight:100;
 		line-height:27px;
 		letter-spacing:2px;
-		font-weight:100;
+		margin-bottom:0;		
 	}
 
 	.carousel-caption h2 {
 		font-size:31px;
 		font-weight:600;
-		margin-top:0px;
 		letter-spacing:2px;
-		margin-bottom:20px;
+		margin-top:0px;		
+		margin-bottom: 12px;
 	}
 	
 	.carousel-caption p {
-		 font-size:10px;
+		 font-size:12px;
 	}
 
 	/* SECTIONS */
@@ -203,7 +235,7 @@
 }
 
 
-/* XS PORTRAIT */
+/* XS PORTRAIT [PHONES PORTRAIT] */
 @media (max-width: 479px) {
 
 	/* LOGO*/
@@ -216,27 +248,6 @@
 		height: 180px;
 	}
 
-	.carousel-caption h1 {
-		font-size:12px;
-		margin-top: 20px;
-		margin-bottom:0;
-		line-height:20px;
-		letter-spacing:2px;
-		font-weight:100;
-	}
-
-	.carousel-caption h2 {
-		font-size:25px;
-		font-weight:600;
-		margin-top:0px;
-		letter-spacing:2px;
-		margin-bottom:10px;
-	}
-	
-	.carousel-caption p {
-		 font-size:10px;
-	}
-
 	.carousel-caption {
 		left: 35px;
 		right: 15px;
@@ -246,5 +257,26 @@
 		color: #fff;
 		text-shadow: none;
 		margin-top: -75px;	
+	}
+	
+	.carousel-caption h1 {
+		font-size:12px;
+		font-weight:100;
+		letter-spacing:2px;
+		line-height:20px;
+		margin-top: 20px;
+		margin-bottom:0;		
+	}
+
+	.carousel-caption h2 {
+		font-size:25px;
+		font-weight:600;
+		letter-spacing:2px;
+		margin-top:0px;		
+		margin-bottom:10px;
+	}
+	
+	.carousel-caption p {
+		 font-size:10px;
 	}
 }
