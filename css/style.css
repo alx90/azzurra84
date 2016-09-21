@@ -266,7 +266,7 @@ label {
 }
 
 .carousel-caption {
-	left: 15px;
+	left: 35px;
 	right: 15px;
 	top: 50%;
 	font-size: 15px;
@@ -278,17 +278,17 @@ label {
 
 .carousel-caption h1 {
 	font-size:46px;
-	margin-bottom:0;
-	line-height:35px;
-	letter-spacing:2px;
 	font-weight:100;
+	letter-spacing:2px;
+	line-height:40px;
+	margin-bottom:0;
 }
 
 .carousel-caption h2 {
 	font-size:81px;
 	font-weight:600;
-	margin-top:0px;
 	letter-spacing:2px;
+	margin-top:0px;	
 	margin-bottom:20px;
 }
 
