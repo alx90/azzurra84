@@ -114,10 +114,12 @@
 	#about-us .about-us {
 		padding-left: 0;
 		padding-right: 0;
+		/*
 		padding-top: 9%;
+		*/
 	}
 
-	#about-us .about-us .btn-send {
+	.btn-send {
 		margin-top: 12px;
 	}
 
@@ -200,7 +202,9 @@
 	#about-us .about-us {
 		padding-left: 5%;
 		padding-right: 5%;
+		/*
 		padding-top: 10%;
+		*/
 		padding-bottom: 10%;
 	}
 
