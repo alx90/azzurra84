@@ -211,6 +211,7 @@
 	/* SERVICES */
 	.st-service {
 		margin-top: 50px;
+		min-height: 110px;
 	}
 
 	/* CONTACTS */
@@ -282,5 +283,12 @@
 	
 	.carousel-caption p {
 		 font-size:10px;
+	}
+
+	/* CONTACS */
+	#map {
+		width: 100%;
+		height: 450px;
+		border: 0px none;
 	}
 }
