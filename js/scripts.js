@@ -17,7 +17,7 @@
     // Animated scrolling / Scroll Up
     // -------------------------------------------------------------
     (function () {
-        $('li a[href*=#]').bind("click", function(e) {
+        $('li a[href*=#], #logoHref').bind("click", function(e) {
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top -79
